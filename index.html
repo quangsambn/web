@@ -144,7 +144,7 @@ tbody tr.empty td{color:var(--muted)}
 
     <details class="panel">
       <summary>Dán báo cáo cũ để điền tự động</summary>
-      <textarea id="pasteBox" rows="8" placeholder="Dán nguyên tin nhắn dạng:&#10;ĐẶNG THỊ PHƯƠNG DUNG xin báo cáo kết quả hoạt động N 7/10&#10;- KH mới: 2&#10;- HĐ KKH: 1,5 tỷ&#10;…"></textarea>
+      <textarea id="pasteBox" rows="8" placeholder="Dán nguyên tin nhắn dạng:&#10;ĐINH QUANG SÂM xin báo cáo kết quả hoạt động N 7/10&#10;- KH mới: 2&#10;- HĐ KKH: 1,5 tỷ&#10;…"></textarea>
       <div class="row"><button class="btn" id="btnParse">Điền vào form</button><span class="note">Kiểm tra lại rồi bấm Lưu.</span></div>
     </details>
   </section>
@@ -239,7 +239,7 @@ const FIELDS=[
   {k:"ttqt",label:"TTQT, MBNT",unit:"triệu",out:"Triệu"},
   {k:"phiDv",label:"Phí DV khác",unit:"triệu",out:"Triệu"}
 ];
-const DEFAULT_NAME="ĐẶNG THỊ PHƯƠNG DUNG";
+const DEFAULT_NAME="ĐINH QUANG SÂM";
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
