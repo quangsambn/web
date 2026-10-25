@@ -8,3 +8,8 @@
 - **Cài đặt**: họ tên, chỉ tiêu tháng, sao lưu/khôi phục.
 
 Mở `index.html` bằng trình duyệt (hoặc bật GitHub Pages). Dữ liệu lưu trong trình duyệt của máy đó; nên sao lưu định kỳ.
+
+## Agent "Báo Cáo Hàng Ngày SamDQ"
+
+- **Trong app Claude (Skill):** nén thư mục `skills/bao-cao-hang-ngay-samdq` thành file .zip rồi tải lên Claude → Settings → Capabilities → Skills. Sau đó chỉ cần nhắn kết quả trong ngày, Claude trả tin nhắn đúng mẫu; dán nhiều tin nhắn ngày để tổng hợp tuần/tháng.
+- **Trong Claude Code:** agent `.claude/agents/bao-cao-hang-ngay-samdq.md` soạn tin nhắn, lưu vào `data/bao-cao.json` (cùng định dạng file sao lưu của ứng dụng web) và thống kê bằng `skills/bao-cao-hang-ngay-samdq/scripts/tong_hop.py`.
